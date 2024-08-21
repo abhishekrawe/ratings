@@ -27,12 +27,14 @@ const data = [
         //   category: "Best in Placement",
         // },
         // {
-        //   category: "Best in India",
+        //   category: "Best ",
         // },
       ],
     },
     rankings: {
-      rank: "3rd/131 in India",
+      rank: "#3rd/131 ",
+      postedBy:
+        "https://seeklogo.com/images/I/india-today-logo-0218513CB5-seeklogo.com.png",
       publications: [
         {
           name: "ABP",
@@ -48,6 +50,7 @@ const data = [
         },
       ],
     },
+    featureTags: "Featured",
   },
   {
     id: 2,
@@ -68,7 +71,7 @@ const data = [
     },
     userReviews: {
       rating: "8.7/10",
-      reviewCount: "Based on 485 Reviews",
+      reviewCount: "Based on 485 User Reviews",
       highlights: [
         // {
         //   category: "Best in Innovation",
@@ -82,7 +85,9 @@ const data = [
       ],
     },
     rankings: {
-      rank: "1st/35 in India",
+      rank: "#1st/35 ",
+      postedBy:
+        "https://c0.klipartz.com/pngpicture/900/732/sticker-png-the-week-news-magazine-india-book-india-text-logo-india-author-world.png",
       publications: [
         {
           name: "The Week",
@@ -98,6 +103,7 @@ const data = [
         },
       ],
     },
+    featureTags: "Featured",
   },
   {
     id: 3,
@@ -132,8 +138,9 @@ const data = [
       ],
     },
     rankings: {
-      rank: "2nd/35 in India",
-      rankedBy: "india_today.png",
+      rank: "#2nd/35 ",
+      postedBy:
+        "https://w7.pngwing.com/pngs/973/674/png-transparent-the-daily-telegraph-newspaper-logo-united-kingdom-business-united-kingdom-text-logo-monochrome.png",
       publications: [
         {
           name: "ABP",
@@ -155,8 +162,8 @@ const data = [
     collegeDetails: {
       name: "Parul University , Vadodara",
       location: "Vadodra , Gujarat | AICTE COA , PCI , GNC Approved",
-      program: "",
-      admissionCutoff: "",
+      program: "B.Tech Ceramic Engineering",
+      admissionCutoff: "JEE-Advanced 2023 Cutoff: 44",
     },
     courseFees: {
       amount: "Rs. 1,49,000",
@@ -169,7 +176,7 @@ const data = [
     },
     userReviews: {
       rating: "8.1/10",
-      reviewCount: "Based on 802 Users Reviews",
+      reviewCount: "Based on 802 User Reviews",
       highlights: [
         {
           category: "Best in Infrastructure",
@@ -183,7 +190,9 @@ const data = [
       ],
     },
     rankings: {
-      rank: "99th/147 in India",
+      rank: "#99th/147 ",
+      postedBy:
+        "https://static.businessworld.in/1608101890_DKz9K0_new_abp_logo.jpg",
       publications: [
         {
           name: "The Week",
@@ -219,7 +228,7 @@ const data = [
     },
     userReviews: {
       rating: "8.5/10",
-      reviewCount: "Based on 325 Reviews",
+      reviewCount: "Based on 325 User Reviews",
       highlights: [
         // {
         //   category: "Best in Innovation",
@@ -233,7 +242,9 @@ const data = [
       ],
     },
     rankings: {
-      rank: "5th/150 in India",
+      rank: "#5th/150 ",
+      postedBy:
+        "https://static.businessworld.in/1608101890_DKz9K0_new_abp_logo.jpg",
       publications: [
         {
           name: "ABP",
@@ -269,7 +280,7 @@ const data = [
     },
     userReviews: {
       rating: "8.2/10",
-      reviewCount: "Based on 210 Reviews",
+      reviewCount: "Based on 210 User Reviews",
       highlights: [
         // {
         //   category: "Best in Infrastructure",
@@ -283,7 +294,9 @@ const data = [
       ],
     },
     rankings: {
-      rank: "8th/100 in India",
+      rank: "#8th/100 ",
+      postedBy:
+        "https://w7.pngwing.com/pngs/973/674/png-transparent-the-daily-telegraph-newspaper-logo-united-kingdom-business-united-kingdom-text-logo-monochrome.png",
       publications: [
         {
           name: "ABP",
@@ -319,7 +332,7 @@ const data = [
     },
     userReviews: {
       rating: "7.9/10",
-      reviewCount: "Based on 500 Reviews",
+      reviewCount: "Based on 500 User Reviews",
       highlights: [
         // {
         //   category: "Best in Extracurricular Activities",
@@ -333,7 +346,9 @@ const data = [
       ],
     },
     rankings: {
-      rank: "15th/150 in India",
+      rank: "#15th/150 ",
+      postedBy:
+        "https://static.businessworld.in/1608101890_DKz9K0_new_abp_logo.jpg",
       publications: [
         {
           name: "The Week",
@@ -349,6 +364,7 @@ const data = [
         },
       ],
     },
+    featureTags: "Featured",
   },
   {
     id: 8,
@@ -369,7 +385,7 @@ const data = [
     },
     userReviews: {
       rating: "7.5/10",
-      reviewCount: "Based on 400 Reviews",
+      reviewCount: "Based on 400 User Reviews",
       highlights: [
         {
           category: "Best in Infrastructure",
@@ -383,7 +399,9 @@ const data = [
       ],
     },
     rankings: {
-      rank: "30th/150 in India",
+      rank: "#30th/150 ",
+      postedBy:
+        "https://static.businessworld.in/1608101890_DKz9K0_new_abp_logo.jpg",
       publications: [
         {
           name: "ABP",
@@ -419,7 +437,7 @@ const data = [
     },
     userReviews: {
       rating: "7.8/10",
-      reviewCount: "Based on 350 Reviews",
+      reviewCount: "Based on 350 User Reviews",
       highlights: [
         {
           category: "Best in Facilities",
@@ -433,7 +451,9 @@ const data = [
       ],
     },
     rankings: {
-      rank: "12th/150 in India",
+      rank: "#12th/150 ",
+      postedBy:
+        "https://w7.pngwing.com/pngs/973/674/png-transparent-the-daily-telegraph-newspaper-logo-united-kingdom-business-united-kingdom-text-logo-monochrome.png",
       publications: [
         {
           name: "The Week",
@@ -469,7 +489,7 @@ const data = [
     },
     userReviews: {
       rating: "8.3/10",
-      reviewCount: "Based on 280 Reviews",
+      reviewCount: "Based on 280 User Reviews",
       highlights: [
         {
           category: "Best in Research Facilities",
@@ -483,7 +503,9 @@ const data = [
       ],
     },
     rankings: {
-      rank: "13th/150 in India",
+      rank: "#13th/150 ",
+      postedBy:
+        "https://static.businessworld.in/1608101890_DKz9K0_new_abp_logo.jpg",
       publications: [
         {
           name: "ABP",
@@ -519,7 +541,7 @@ const data = [
     },
     userReviews: {
       rating: "7.6/10",
-      reviewCount: "Based on 320 Reviews",
+      reviewCount: "Based on 320 User Reviews",
       highlights: [
         {
           category: "Best in Practical Training",
@@ -533,7 +555,9 @@ const data = [
       ],
     },
     rankings: {
-      rank: "25th/150 in India",
+      rank: "#25th/150 ",
+      postedBy:
+        "https://static.businessworld.in/1608101890_DKz9K0_new_abp_logo.jpg",
       publications: [
         {
           name: "ABP",
@@ -549,6 +573,7 @@ const data = [
         },
       ],
     },
+    featureTags: "Featured",
   },
   {
     id: 12,
@@ -569,7 +594,7 @@ const data = [
     },
     userReviews: {
       rating: "8.0/10",
-      reviewCount: "Based on 400 Reviews",
+      reviewCount: "Based on 400 User Reviews",
       highlights: [
         {
           category: "Best in Student Support",
@@ -583,7 +608,9 @@ const data = [
       ],
     },
     rankings: {
-      rank: "20th/150 in India",
+      rank: "#20th/150 ",
+      postedBy:
+        "https://w7.pngwing.com/pngs/973/674/png-transparent-the-daily-telegraph-newspaper-logo-united-kingdom-business-united-kingdom-text-logo-monochrome.png",
       publications: [
         {
           name: "ABP",

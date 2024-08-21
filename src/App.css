@@ -15,7 +15,6 @@
 }
 
 
-
 .publicationContainer {
     display: flex;
     flex-direction: row;
@@ -33,6 +32,36 @@
     width: 20px;
     height: 20px;
     margin-right: 5px;
+}
+
+.searchFilterContainer {
+    margin: 16px 0;
+}
+
+.postBy{
+  display: flex;
+  flex-direction: row;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.postedBy {
+    width: 80px;
+    height: 40px;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+.rankingsRank{
+    font-size: 15px;
+    font-weight: 100;
+    color : #ff8c00;
+}
+
+.rankingcontnet{
+    font-size: 15px;
+    font-weight: 500;
+    color : black;
 }
 
 .tableHeaderCell {
@@ -56,13 +85,21 @@
 
 .collegeProgram {
     background-color: #ffefcc;
-    
     color: #ff8c00;
- 
-    padding: 2px 4px;
-   
+    border-left: 3px solid #ff8c00;
+    padding: 4px 10px;
     border-radius: 4px;
+    border-radius: 0 20px 20px 0;
    
+}
+
+.publicationContainer {
+background-color:#bedaf8 ;
+    color: #a1ccfa;
+    border-left: 3px solid #63aefd;
+    padding: 4px 10px;
+    border-radius: 4px;
+    border-radius: 0 8px 8px 0;
 }
 
 .courseFeesAmount {
@@ -77,11 +114,10 @@
 
 .highlightChip {
     background-color: #ffefcc;
-   
     color: #ff8c00;
-   
     padding: 4px 8px;
     border-radius: 16px;
+    font-weight: 400;
    
     display: inline-block;
     margin-right: 5px;
@@ -99,6 +135,60 @@
     animation: blink 1s infinite;
     
 }
+
+.SearchFilter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.college-action {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    gap: 15px;
+}
+
+.apply-action {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.download {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.add-compare {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.tableCompare{
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   gap: 5px;
+   color :#ff8c00 ;
+   font-weight: 400;
+}
+
+
+
+.searchSortContainer {
+    display: flex;
+    justify-content: center;
+    margin: 16px 0;
+    gap: 20px;
+}
+
+
 
 @keyframes blink {
     0% {
