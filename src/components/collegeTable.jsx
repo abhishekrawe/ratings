@@ -13,6 +13,7 @@ import {
 } from "@mui/material";
 import {
   ArrowRight,
+  ArrowDown2,
   ArrowCircleDown,
   ArrowSwapHorizontal,
 } from "iconsax-react";
@@ -197,7 +198,7 @@ const CollegeTable = () => {
                   </div>
 
                   <div className="publicationContainer">
-                    {college.rankings.publications.map((publication, index) => (
+                    {college.rankings.publications.slice(0, 3).map((publication, index) => (
                       <div key={index} className="publicationItem">
                         <img
                           src={publication.logo}
@@ -206,6 +207,15 @@ const CollegeTable = () => {
                         />
                       </div>
                     ))}
+                    {college.rankings.publications.length > 3 && (
+                      <div className="morePublications">
+                        <p>+{college.rankings.publications.length - 3} More  </p>
+                        <ArrowDown2
+                          size="20"
+                          color="#007bff"
+                        />
+                      </div>
+                    )}
                   </div>
                 </TableCell>
               </TableRow>

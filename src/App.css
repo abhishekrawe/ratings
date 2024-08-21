@@ -18,6 +18,8 @@
 .publicationContainer {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
 }
 
@@ -29,9 +31,10 @@
 }
 
 .publicationLogo {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     margin-right: 5px;
+    border-radius: 30px;
 }
 
 .searchFilterContainer {
@@ -186,6 +189,15 @@ background-color:#bedaf8 ;
     justify-content: center;
     margin: 16px 0;
     gap: 20px;
+}
+
+.morePublications {
+    color :#007bff ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600;
 }
 
 

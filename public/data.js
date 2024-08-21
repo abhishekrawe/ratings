@@ -48,6 +48,18 @@ const data = [
           name: "NIRF",
           logo: "https://upload.wikimedia.org/wikipedia/en/5/52/National_Institutional_Ranking_Framework_logo.png",
         },
+        {
+          name: "ABP",
+          logo: "https://static.businessworld.in/1608101890_DKz9K0_new_abp_logo.jpg",
+        },
+        {
+          name: "India Today",
+          logo: "https://seekvectors.com/files/download/indiatoday-01.png",
+        },
+        {
+          name: "NIRF",
+          logo: "https://upload.wikimedia.org/wikipedia/en/5/52/National_Institutional_Ranking_Framework_logo.png",
+        },
       ],
     },
     featureTags: "Featured",
@@ -90,16 +102,24 @@ const data = [
         "https://c0.klipartz.com/pngpicture/900/732/sticker-png-the-week-news-magazine-india-book-india-text-logo-india-author-world.png",
       publications: [
         {
-          name: "The Week",
-          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn0iqLqNb4WWjloVWnsLBEITn_jDg1lyc4fA&s",
-        },
-        {
           name: "NDTV",
           logo: "https://i.pinimg.com/736x/8b/12/52/8b125232501ef2f169a7085149b14a3b.jpg",
         },
         {
           name: "CNN",
           logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
+        },
+        {
+          name: "ABP",
+          logo: "https://static.businessworld.in/1608101890_DKz9K0_new_abp_logo.jpg",
+        },
+        {
+          name: "India Today",
+          logo: "https://seekvectors.com/files/download/indiatoday-01.png",
+        },
+        {
+          name: "NIRF",
+          logo: "https://upload.wikimedia.org/wikipedia/en/5/52/National_Institutional_Ranking_Framework_logo.png",
         },
       ],
     },
@@ -199,6 +219,10 @@ const data = [
           logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn0iqLqNb4WWjloVWnsLBEITn_jDg1lyc4fA&s",
         },
         {
+          name: "The Week",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn0iqLqNb4WWjloVWnsLBEITn_jDg1lyc4fA&s",
+        },
+        {
           name: "NDTV",
           logo: "https://i.pinimg.com/736x/8b/12/52/8b125232501ef2f169a7085149b14a3b.jpg",
         },
@@ -258,6 +282,18 @@ const data = [
           name: "NIRF",
           logo: "https://upload.wikimedia.org/wikipedia/en/5/52/National_Institutional_Ranking_Framework_logo.png",
         },
+        {
+          name: "The Week",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn0iqLqNb4WWjloVWnsLBEITn_jDg1lyc4fA&s",
+        },
+        {
+          name: "NDTV",
+          logo: "https://i.pinimg.com/736x/8b/12/52/8b125232501ef2f169a7085149b14a3b.jpg",
+        },
+        {
+          name: "CNN",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
+        },
       ],
     },
   },
@@ -310,6 +346,18 @@ const data = [
           name: "NIRF",
           logo: "https://upload.wikimedia.org/wikipedia/en/5/52/National_Institutional_Ranking_Framework_logo.png",
         },
+        {
+          name: "The Week",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn0iqLqNb4WWjloVWnsLBEITn_jDg1lyc4fA&s",
+        },
+        {
+          name: "NDTV",
+          logo: "https://i.pinimg.com/736x/8b/12/52/8b125232501ef2f169a7085149b14a3b.jpg",
+        },
+        {
+          name: "CNN",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
+        },
       ],
     },
   },
@@ -350,6 +398,18 @@ const data = [
       postedBy:
         "https://static.businessworld.in/1608101890_DKz9K0_new_abp_logo.jpg",
       publications: [
+        {
+          name: "The Week",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn0iqLqNb4WWjloVWnsLBEITn_jDg1lyc4fA&s",
+        },
+        {
+          name: "NDTV",
+          logo: "https://i.pinimg.com/736x/8b/12/52/8b125232501ef2f169a7085149b14a3b.jpg",
+        },
+        {
+          name: "CNN",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
+        },
         {
           name: "The Week",
           logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn0iqLqNb4WWjloVWnsLBEITn_jDg1lyc4fA&s",
@@ -414,6 +474,18 @@ const data = [
         {
           name: "NIRF",
           logo: "https://upload.wikimedia.org/wikipedia/en/5/52/National_Institutional_Ranking_Framework_logo.png",
+        },
+        {
+          name: "The Week",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn0iqLqNb4WWjloVWnsLBEITn_jDg1lyc4fA&s",
+        },
+        {
+          name: "NDTV",
+          logo: "https://i.pinimg.com/736x/8b/12/52/8b125232501ef2f169a7085149b14a3b.jpg",
+        },
+        {
+          name: "CNN",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
         },
       ],
     },
@@ -571,6 +643,18 @@ const data = [
           name: "NIRF",
           logo: "https://upload.wikimedia.org/wikipedia/en/5/52/National_Institutional_Ranking_Framework_logo.png",
         },
+        {
+          name: "The Week",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn0iqLqNb4WWjloVWnsLBEITn_jDg1lyc4fA&s",
+        },
+        {
+          name: "NDTV",
+          logo: "https://i.pinimg.com/736x/8b/12/52/8b125232501ef2f169a7085149b14a3b.jpg",
+        },
+        {
+          name: "CNN",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
+        },
       ],
     },
     featureTags: "Featured",
@@ -623,6 +707,18 @@ const data = [
         {
           name: "NIRF",
           logo: "https://upload.wikimedia.org/wikipedia/en/5/52/National_Institutional_Ranking_Framework_logo.png",
+        },
+        {
+          name: "The Week",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn0iqLqNb4WWjloVWnsLBEITn_jDg1lyc4fA&s",
+        },
+        {
+          name: "NDTV",
+          logo: "https://i.pinimg.com/736x/8b/12/52/8b125232501ef2f169a7085149b14a3b.jpg",
+        },
+        {
+          name: "CNN",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
         },
       ],
     },
