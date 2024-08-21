@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useCallback } from "react";
 import {
   Table,
   TableBody,
@@ -10,6 +10,7 @@ import {
   useMediaQuery,
   useTheme,
   Checkbox,
+  CircularProgress,
 } from "@mui/material";
 import {
   ArrowRight,
@@ -23,9 +24,15 @@ import { fetchCollegeData } from "../services/dataService";
 
 const CollegeTable = () => {
   const [data, setData] = useState([]);
+  const [displayedData, setDisplayedData] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
   const [sortCriteria, setSortCriteria] = useState("rating");
   const [sortOrder, setSortOrder] = useState("asc");
+  const [page, setPage] = useState(1);
+  const [loading, setLoading] = useState(false);
+
+  const rowsPerPage = 10;
+
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
@@ -33,6 +40,7 @@ const CollegeTable = () => {
     const loadData = async () => {
       const fetchedData = await fetchCollegeData();
       setData(fetchedData);
+      setDisplayedData(fetchedData.slice(0, rowsPerPage));
     };
 
     loadData();
@@ -47,7 +55,36 @@ const CollegeTable = () => {
     setSortOrder(order);
   };
 
-  const sortedData = [...data].sort((a, b) => {
+  const loadMoreData = useCallback(() => {
+    if (loading) return;
+
+    setLoading(true);
+
+    setTimeout(() => {
+      const nextPage = page + 1;
+      const nextData = data.slice(0, nextPage * rowsPerPage);
+      setDisplayedData(nextData);
+      setPage(nextPage);
+      setLoading(false);
+    }, 3000); // 3 seconds delay
+  }, [page, data, loading]);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (
+        window.innerHeight + document.documentElement.scrollTop !==
+        document.documentElement.offsetHeight ||
+        loading
+      )
+        return;
+      loadMoreData();
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [loadMoreData, loading]);
+
+  const sortedData = [...displayedData].sort((a, b) => {
     const getValue = (item) => {
       switch (sortCriteria) {
         case "rating":
@@ -226,6 +263,11 @@ const CollegeTable = () => {
             ))}
           </TableBody>
         </Table>
+        {loading && (
+          <div style={{ textAlign: "center", padding: "20px 0" }}>
+            <CircularProgress />
+          </div>
+        )}
       </TableContainer>
     </>
   );
