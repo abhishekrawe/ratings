@@ -269,813 +269,6 @@ const data = [
     },
   },
   {
-    id: 1,
-    collegeDetails: {
-      name: "IIT Madras - Indian Institute of Technology - [IITM], Chennai",
-      location: "Chennai, Tamil Nadu | AICTE Approved",
-      program: "B.Tech in Computer Science and Engineering",
-      admissionCutoff: "JEE-Advanced 2023 Cutoff: 144",
-    },
-    courseFees: {
-      amount: "Rs. 2,09,550",
-      programType: "BE/BTech",
-      duration: "1st Year Fees",
-    },
-    placements: {
-      averagePackage: "Rs. 21,48,000",
-      highestPackage: "Rs. 1,98,00,000",
-    },
-    userReviews: {
-      rating: "8.6/10",
-      reviewCount: "Based on 289 Reviews",
-      highlights: [
-        {
-          category: "Best in Social Life",
-        },
-        // {
-        //   category: "Best in Placement",
-        // },
-        // {
-        //   category: "Best ",
-        // },
-      ],
-    },
-    rankings: {
-      rank: "#3rd/131 ",
-      postedBy:
-        "https://seeklogo.com/images/I/india-today-logo-0218513CB5-seeklogo.com.png",
-      publications: [
-        {
-          name: "NDTV",
-          logo: "https://i.pinimg.com/736x/8b/12/52/8b125232501ef2f169a7085149b14a3b.jpg",
-        },
-        {
-          name: "India Today",
-          logo: "https://seekvectors.com/files/download/indiatoday-01.png",
-        },
-        {
-          name: "NIRF",
-          logo: "https://upload.wikimedia.org/wikipedia/en/5/52/National_Institutional_Ranking_Framework_logo.png",
-        },
-        {
-          name: "ABP",
-          logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/ABP_logo.svg/1280px-ABP_logo.svg.png",
-        },
-
-        {
-          name: "India Today",
-          logo: "https://seekvectors.com/files/download/indiatoday-01.png",
-        },
-        {
-          name: "NIRF",
-          logo: "https://upload.wikimedia.org/wikipedia/en/5/52/National_Institutional_Ranking_Framework_logo.png",
-        },
-      ],
-    },
-    featureTags: "Featured",
-  },
-  {
-    id: 2,
-    collegeDetails: {
-      name: "IIT Delhi - Indian Institute of Technology - [IITD], New Delhi",
-      location: "New Delhi, Delhi NCR",
-      program: "B.Tech + M.tech Mathematics and Computing",
-      admissionCutoff: "JEE-Advanced 2023 Cutoff: 115",
-    },
-    courseFees: {
-      amount: "Rs. 2,54,000",
-      programType: "BE/BTech",
-      duration: "1st Year Fees",
-    },
-    placements: {
-      averagePackage: "Rs. 25,82,000",
-      highestPackage: "Rs. 2,00,00,000",
-    },
-    userReviews: {
-      rating: "8.7/10",
-      reviewCount: "Based on 485 User Reviews",
-      highlights: [
-        // {
-        //   category: "Best in Innovation",
-        // },
-        // {
-        //   category: "Best in Campus Life",
-        // },
-        {
-          category: "Best in Placements",
-        },
-      ],
-    },
-    rankings: {
-      rank: "#1st/35 ",
-      postedBy:
-        "https://c0.klipartz.com/pngpicture/900/732/sticker-png-the-week-news-magazine-india-book-india-text-logo-india-author-world.png",
-      publications: [
-        {
-          name: "NDTV",
-          logo: "https://i.pinimg.com/736x/8b/12/52/8b125232501ef2f169a7085149b14a3b.jpg",
-        },
-        {
-          name: "CNN",
-          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
-        },
-
-        {
-          name: "India Today",
-          logo: "https://seekvectors.com/files/download/indiatoday-01.png",
-        },
-        {
-          name: "NIRF",
-          logo: "https://upload.wikimedia.org/wikipedia/en/5/52/National_Institutional_Ranking_Framework_logo.png",
-        },
-        {
-          name: "ABP",
-          logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/ABP_logo.svg/1280px-ABP_logo.svg.png",
-        },
-        {
-          name: "CNN",
-          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
-        },
-        {
-          name: "CNN",
-          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
-        },
-        {
-          name: "ABP",
-          logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/ABP_logo.svg/1280px-ABP_logo.svg.png",
-        },
-      ],
-    },
-    featureTags: "Featured",
-  },
-  {
-    id: 3,
-    collegeDetails: {
-      name: "IIT Bombay - Indian Institute of Technology - [IITB], Mumbai",
-      location: "Mumbai, Maharashtra | AICTE, UGC Approved",
-      program: "B.Tech Computer Science Engineering",
-      admissionCutoff: "JEE-Advanced 2023 Cutoff: 66",
-    },
-    courseFees: {
-      amount: "Rs. 2,29,300",
-      programType: "BE/BTech",
-      duration: "1st Year Fees",
-    },
-    placements: {
-      averagePackage: "Rs. 21,82,000",
-      highestPackage: "Rs. 3,67,00,000",
-    },
-    userReviews: {
-      rating: "8.8/10",
-      reviewCount: "Based on 306 user Reviews",
-      highlights: [
-        // {
-        //   category: "Best in Faculty",
-        // },
-        // {
-        //   category: "Best in Alumni Network",
-        // },
-        {
-          category: "Best in Research Opportunities",
-        },
-      ],
-    },
-    rankings: {
-      rank: "#2nd/35 ",
-      postedBy:
-        "https://bcassetcdn.com/public/blog/wp-content/uploads/2021/11/06183243/NBC-1.png",
-      publications: [
-        {
-          name: "CNN",
-          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
-        },
-
-        {
-          name: "India Today",
-          logo: "https://seekvectors.com/files/download/indiatoday-01.png",
-        },
-        {
-          name: "CNN",
-          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
-        },
-        {
-          name: "CNN",
-          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
-        },
-        {
-          name: "NIRF",
-          logo: "https://upload.wikimedia.org/wikipedia/en/5/52/National_Institutional_Ranking_Framework_logo.png",
-        },
-        {
-          name: "ABP",
-          logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/ABP_logo.svg/1280px-ABP_logo.svg.png",
-        },
-      ],
-    },
-  },
-  {
-    id: 4,
-    collegeDetails: {
-      name: "Parul University , Vadodara",
-      location: "Vadodra , Gujarat | AICTE COA , PCI , GNC Approved",
-      program: "B.Tech Ceramic Engineering",
-      admissionCutoff: "JEE-Advanced 2023 Cutoff: 44",
-    },
-    courseFees: {
-      amount: "Rs. 1,49,000",
-      programType: "BE/BTech",
-      duration: "1st Year Fees",
-    },
-    placements: {
-      averagePackage: "Rs. 4,00,000",
-      highestPackage: "Rs. 30,00,000",
-    },
-    userReviews: {
-      rating: "8.1/10",
-      reviewCount: "Based on 802 User Reviews",
-      highlights: [
-        {
-          category: "Best in Infrastructure",
-        },
-        // {
-        //   category: "Best in Research",
-        // },
-        // {
-        //   category: "Best in Student Support",
-        // },
-      ],
-    },
-    rankings: {
-      rank: "#99th/147 ",
-      postedBy:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/ABP_logo.svg/1280px-ABP_logo.svg.png",
-      publications: [
-        {
-          name: "The Week",
-          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRju5kN27hH01IMVSj6E7EGIMLSO4mTaZkm3A&s",
-        },
-        {
-          name: "CNN",
-          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
-        },
-        {
-          name: "CNN",
-          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
-        },
-        {
-          name: "The Week",
-          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRju5kN27hH01IMVSj6E7EGIMLSO4mTaZkm3A&s",
-        },
-        {
-          name: "NDTV",
-          logo: "https://i.pinimg.com/736x/8b/12/52/8b125232501ef2f169a7085149b14a3b.jpg",
-        },
-        {
-          name: "CNN",
-          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
-        },
-      ],
-    },
-  },
-  {
-    id: 1,
-    collegeDetails: {
-      name: "IIT Madras - Indian Institute of Technology - [IITM], Chennai",
-      location: "Chennai, Tamil Nadu | AICTE Approved",
-      program: "B.Tech in Computer Science and Engineering",
-      admissionCutoff: "JEE-Advanced 2023 Cutoff: 144",
-    },
-    courseFees: {
-      amount: "Rs. 2,09,550",
-      programType: "BE/BTech",
-      duration: "1st Year Fees",
-    },
-    placements: {
-      averagePackage: "Rs. 21,48,000",
-      highestPackage: "Rs. 1,98,00,000",
-    },
-    userReviews: {
-      rating: "8.6/10",
-      reviewCount: "Based on 289 Reviews",
-      highlights: [
-        {
-          category: "Best in Social Life",
-        },
-        // {
-        //   category: "Best in Placement",
-        // },
-        // {
-        //   category: "Best ",
-        // },
-      ],
-    },
-    rankings: {
-      rank: "#3rd/131 ",
-      postedBy:
-        "https://seeklogo.com/images/I/india-today-logo-0218513CB5-seeklogo.com.png",
-      publications: [
-        {
-          name: "NDTV",
-          logo: "https://i.pinimg.com/736x/8b/12/52/8b125232501ef2f169a7085149b14a3b.jpg",
-        },
-        {
-          name: "India Today",
-          logo: "https://seekvectors.com/files/download/indiatoday-01.png",
-        },
-        {
-          name: "NIRF",
-          logo: "https://upload.wikimedia.org/wikipedia/en/5/52/National_Institutional_Ranking_Framework_logo.png",
-        },
-        {
-          name: "ABP",
-          logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/ABP_logo.svg/1280px-ABP_logo.svg.png",
-        },
-
-        {
-          name: "India Today",
-          logo: "https://seekvectors.com/files/download/indiatoday-01.png",
-        },
-        {
-          name: "NIRF",
-          logo: "https://upload.wikimedia.org/wikipedia/en/5/52/National_Institutional_Ranking_Framework_logo.png",
-        },
-      ],
-    },
-    featureTags: "Featured",
-  },
-  {
-    id: 2,
-    collegeDetails: {
-      name: "IIT Delhi - Indian Institute of Technology - [IITD], New Delhi",
-      location: "New Delhi, Delhi NCR",
-      program: "B.Tech + M.tech Mathematics and Computing",
-      admissionCutoff: "JEE-Advanced 2023 Cutoff: 115",
-    },
-    courseFees: {
-      amount: "Rs. 2,54,000",
-      programType: "BE/BTech",
-      duration: "1st Year Fees",
-    },
-    placements: {
-      averagePackage: "Rs. 25,82,000",
-      highestPackage: "Rs. 2,00,00,000",
-    },
-    userReviews: {
-      rating: "8.7/10",
-      reviewCount: "Based on 485 User Reviews",
-      highlights: [
-        // {
-        //   category: "Best in Innovation",
-        // },
-        // {
-        //   category: "Best in Campus Life",
-        // },
-        {
-          category: "Best in Placements",
-        },
-      ],
-    },
-    rankings: {
-      rank: "#1st/35 ",
-      postedBy:
-        "https://c0.klipartz.com/pngpicture/900/732/sticker-png-the-week-news-magazine-india-book-india-text-logo-india-author-world.png",
-      publications: [
-        {
-          name: "NDTV",
-          logo: "https://i.pinimg.com/736x/8b/12/52/8b125232501ef2f169a7085149b14a3b.jpg",
-        },
-        {
-          name: "CNN",
-          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
-        },
-
-        {
-          name: "India Today",
-          logo: "https://seekvectors.com/files/download/indiatoday-01.png",
-        },
-        {
-          name: "NIRF",
-          logo: "https://upload.wikimedia.org/wikipedia/en/5/52/National_Institutional_Ranking_Framework_logo.png",
-        },
-        {
-          name: "ABP",
-          logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/ABP_logo.svg/1280px-ABP_logo.svg.png",
-        },
-        {
-          name: "CNN",
-          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
-        },
-        {
-          name: "CNN",
-          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
-        },
-        {
-          name: "ABP",
-          logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/ABP_logo.svg/1280px-ABP_logo.svg.png",
-        },
-      ],
-    },
-    featureTags: "Featured",
-  },
-  {
-    id: 3,
-    collegeDetails: {
-      name: "IIT Bombay - Indian Institute of Technology - [IITB], Mumbai",
-      location: "Mumbai, Maharashtra | AICTE, UGC Approved",
-      program: "B.Tech Computer Science Engineering",
-      admissionCutoff: "JEE-Advanced 2023 Cutoff: 66",
-    },
-    courseFees: {
-      amount: "Rs. 2,29,300",
-      programType: "BE/BTech",
-      duration: "1st Year Fees",
-    },
-    placements: {
-      averagePackage: "Rs. 21,82,000",
-      highestPackage: "Rs. 3,67,00,000",
-    },
-    userReviews: {
-      rating: "8.8/10",
-      reviewCount: "Based on 306 user Reviews",
-      highlights: [
-        // {
-        //   category: "Best in Faculty",
-        // },
-        // {
-        //   category: "Best in Alumni Network",
-        // },
-        {
-          category: "Best in Research Opportunities",
-        },
-      ],
-    },
-    rankings: {
-      rank: "#2nd/35 ",
-      postedBy:
-        "https://bcassetcdn.com/public/blog/wp-content/uploads/2021/11/06183243/NBC-1.png",
-      publications: [
-        {
-          name: "CNN",
-          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
-        },
-
-        {
-          name: "India Today",
-          logo: "https://seekvectors.com/files/download/indiatoday-01.png",
-        },
-        {
-          name: "CNN",
-          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
-        },
-        {
-          name: "CNN",
-          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
-        },
-        {
-          name: "NIRF",
-          logo: "https://upload.wikimedia.org/wikipedia/en/5/52/National_Institutional_Ranking_Framework_logo.png",
-        },
-        {
-          name: "ABP",
-          logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/ABP_logo.svg/1280px-ABP_logo.svg.png",
-        },
-      ],
-    },
-  },
-  {
-    id: 4,
-    collegeDetails: {
-      name: "Parul University , Vadodara",
-      location: "Vadodra , Gujarat | AICTE COA , PCI , GNC Approved",
-      program: "B.Tech Ceramic Engineering",
-      admissionCutoff: "JEE-Advanced 2023 Cutoff: 44",
-    },
-    courseFees: {
-      amount: "Rs. 1,49,000",
-      programType: "BE/BTech",
-      duration: "1st Year Fees",
-    },
-    placements: {
-      averagePackage: "Rs. 4,00,000",
-      highestPackage: "Rs. 30,00,000",
-    },
-    userReviews: {
-      rating: "8.1/10",
-      reviewCount: "Based on 802 User Reviews",
-      highlights: [
-        {
-          category: "Best in Infrastructure",
-        },
-        // {
-        //   category: "Best in Research",
-        // },
-        // {
-        //   category: "Best in Student Support",
-        // },
-      ],
-    },
-    rankings: {
-      rank: "#99th/147 ",
-      postedBy:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/ABP_logo.svg/1280px-ABP_logo.svg.png",
-      publications: [
-        {
-          name: "The Week",
-          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRju5kN27hH01IMVSj6E7EGIMLSO4mTaZkm3A&s",
-        },
-        {
-          name: "CNN",
-          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
-        },
-        {
-          name: "CNN",
-          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
-        },
-        {
-          name: "The Week",
-          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRju5kN27hH01IMVSj6E7EGIMLSO4mTaZkm3A&s",
-        },
-        {
-          name: "NDTV",
-          logo: "https://i.pinimg.com/736x/8b/12/52/8b125232501ef2f169a7085149b14a3b.jpg",
-        },
-        {
-          name: "CNN",
-          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
-        },
-      ],
-    },
-  },
-  {
-    id: 1,
-    collegeDetails: {
-      name: "IIT Madras - Indian Institute of Technology - [IITM], Chennai",
-      location: "Chennai, Tamil Nadu | AICTE Approved",
-      program: "B.Tech in Computer Science and Engineering",
-      admissionCutoff: "JEE-Advanced 2023 Cutoff: 144",
-    },
-    courseFees: {
-      amount: "Rs. 2,09,550",
-      programType: "BE/BTech",
-      duration: "1st Year Fees",
-    },
-    placements: {
-      averagePackage: "Rs. 21,48,000",
-      highestPackage: "Rs. 1,98,00,000",
-    },
-    userReviews: {
-      rating: "8.6/10",
-      reviewCount: "Based on 289 Reviews",
-      highlights: [
-        {
-          category: "Best in Social Life",
-        },
-        // {
-        //   category: "Best in Placement",
-        // },
-        // {
-        //   category: "Best ",
-        // },
-      ],
-    },
-    rankings: {
-      rank: "#3rd/131 ",
-      postedBy:
-        "https://seeklogo.com/images/I/india-today-logo-0218513CB5-seeklogo.com.png",
-      publications: [
-        {
-          name: "NDTV",
-          logo: "https://i.pinimg.com/736x/8b/12/52/8b125232501ef2f169a7085149b14a3b.jpg",
-        },
-        {
-          name: "India Today",
-          logo: "https://seekvectors.com/files/download/indiatoday-01.png",
-        },
-        {
-          name: "NIRF",
-          logo: "https://upload.wikimedia.org/wikipedia/en/5/52/National_Institutional_Ranking_Framework_logo.png",
-        },
-        {
-          name: "ABP",
-          logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/ABP_logo.svg/1280px-ABP_logo.svg.png",
-        },
-
-        {
-          name: "India Today",
-          logo: "https://seekvectors.com/files/download/indiatoday-01.png",
-        },
-        {
-          name: "NIRF",
-          logo: "https://upload.wikimedia.org/wikipedia/en/5/52/National_Institutional_Ranking_Framework_logo.png",
-        },
-      ],
-    },
-    featureTags: "Featured",
-  },
-  {
-    id: 2,
-    collegeDetails: {
-      name: "IIT Delhi - Indian Institute of Technology - [IITD], New Delhi",
-      location: "New Delhi, Delhi NCR",
-      program: "B.Tech + M.tech Mathematics and Computing",
-      admissionCutoff: "JEE-Advanced 2023 Cutoff: 115",
-    },
-    courseFees: {
-      amount: "Rs. 2,54,000",
-      programType: "BE/BTech",
-      duration: "1st Year Fees",
-    },
-    placements: {
-      averagePackage: "Rs. 25,82,000",
-      highestPackage: "Rs. 2,00,00,000",
-    },
-    userReviews: {
-      rating: "8.7/10",
-      reviewCount: "Based on 485 User Reviews",
-      highlights: [
-        // {
-        //   category: "Best in Innovation",
-        // },
-        // {
-        //   category: "Best in Campus Life",
-        // },
-        {
-          category: "Best in Placements",
-        },
-      ],
-    },
-    rankings: {
-      rank: "#1st/35 ",
-      postedBy:
-        "https://c0.klipartz.com/pngpicture/900/732/sticker-png-the-week-news-magazine-india-book-india-text-logo-india-author-world.png",
-      publications: [
-        {
-          name: "NDTV",
-          logo: "https://i.pinimg.com/736x/8b/12/52/8b125232501ef2f169a7085149b14a3b.jpg",
-        },
-        {
-          name: "CNN",
-          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
-        },
-
-        {
-          name: "India Today",
-          logo: "https://seekvectors.com/files/download/indiatoday-01.png",
-        },
-        {
-          name: "NIRF",
-          logo: "https://upload.wikimedia.org/wikipedia/en/5/52/National_Institutional_Ranking_Framework_logo.png",
-        },
-        {
-          name: "ABP",
-          logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/ABP_logo.svg/1280px-ABP_logo.svg.png",
-        },
-        {
-          name: "CNN",
-          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
-        },
-        {
-          name: "CNN",
-          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
-        },
-        {
-          name: "ABP",
-          logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/ABP_logo.svg/1280px-ABP_logo.svg.png",
-        },
-      ],
-    },
-    featureTags: "Featured",
-  },
-  {
-    id: 3,
-    collegeDetails: {
-      name: "IIT Bombay - Indian Institute of Technology - [IITB], Mumbai",
-      location: "Mumbai, Maharashtra | AICTE, UGC Approved",
-      program: "B.Tech Computer Science Engineering",
-      admissionCutoff: "JEE-Advanced 2023 Cutoff: 66",
-    },
-    courseFees: {
-      amount: "Rs. 2,29,300",
-      programType: "BE/BTech",
-      duration: "1st Year Fees",
-    },
-    placements: {
-      averagePackage: "Rs. 21,82,000",
-      highestPackage: "Rs. 3,67,00,000",
-    },
-    userReviews: {
-      rating: "8.8/10",
-      reviewCount: "Based on 306 user Reviews",
-      highlights: [
-        // {
-        //   category: "Best in Faculty",
-        // },
-        // {
-        //   category: "Best in Alumni Network",
-        // },
-        {
-          category: "Best in Research Opportunities",
-        },
-      ],
-    },
-    rankings: {
-      rank: "#2nd/35 ",
-      postedBy:
-        "https://bcassetcdn.com/public/blog/wp-content/uploads/2021/11/06183243/NBC-1.png",
-      publications: [
-        {
-          name: "CNN",
-          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
-        },
-
-        {
-          name: "India Today",
-          logo: "https://seekvectors.com/files/download/indiatoday-01.png",
-        },
-        {
-          name: "CNN",
-          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
-        },
-        {
-          name: "CNN",
-          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
-        },
-        {
-          name: "NIRF",
-          logo: "https://upload.wikimedia.org/wikipedia/en/5/52/National_Institutional_Ranking_Framework_logo.png",
-        },
-        {
-          name: "ABP",
-          logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/ABP_logo.svg/1280px-ABP_logo.svg.png",
-        },
-      ],
-    },
-  },
-  {
-    id: 4,
-    collegeDetails: {
-      name: "Parul University , Vadodara",
-      location: "Vadodra , Gujarat | AICTE COA , PCI , GNC Approved",
-      program: "B.Tech Ceramic Engineering",
-      admissionCutoff: "JEE-Advanced 2023 Cutoff: 44",
-    },
-    courseFees: {
-      amount: "Rs. 1,49,000",
-      programType: "BE/BTech",
-      duration: "1st Year Fees",
-    },
-    placements: {
-      averagePackage: "Rs. 4,00,000",
-      highestPackage: "Rs. 30,00,000",
-    },
-    userReviews: {
-      rating: "8.1/10",
-      reviewCount: "Based on 802 User Reviews",
-      highlights: [
-        {
-          category: "Best in Infrastructure",
-        },
-        // {
-        //   category: "Best in Research",
-        // },
-        // {
-        //   category: "Best in Student Support",
-        // },
-      ],
-    },
-    rankings: {
-      rank: "#99th/147 ",
-      postedBy:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/ABP_logo.svg/1280px-ABP_logo.svg.png",
-      publications: [
-        {
-          name: "The Week",
-          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRju5kN27hH01IMVSj6E7EGIMLSO4mTaZkm3A&s",
-        },
-        {
-          name: "CNN",
-          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
-        },
-        {
-          name: "CNN",
-          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
-        },
-        {
-          name: "The Week",
-          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRju5kN27hH01IMVSj6E7EGIMLSO4mTaZkm3A&s",
-        },
-        {
-          name: "NDTV",
-          logo: "https://i.pinimg.com/736x/8b/12/52/8b125232501ef2f169a7085149b14a3b.jpg",
-        },
-        {
-          name: "CNN",
-          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
-        },
-      ],
-    },
-  },
-  {
     id: 5,
     collegeDetails: {
       name: "BITS Pilani - Birla Institute of Technology and Science",
@@ -1611,6 +804,300 @@ const data = [
         {
           name: "CNN",
           logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
+        },
+      ],
+    },
+  },
+  {
+    id: 13,
+    collegeDetails: {
+      name: "IIT Kharagpur - Indian Institute of Technology",
+      location: "Kharagpur, West Bengal | AICTE Approved",
+      program: "B.Tech in Civil Engineering",
+      admissionCutoff: "JEE-Advanced 2023 Cutoff: 155",
+    },
+    courseFees: {
+      amount: "Rs. 2,10,000",
+      programType: "BE/BTech",
+      duration: "1st Year Fees",
+    },
+    placements: {
+      averagePackage: "Rs. 19,20,000",
+      highestPackage: "Rs. 2,10,00,000",
+    },
+    userReviews: {
+      rating: "8.9/10",
+      reviewCount: "Based on 360 Reviews",
+      highlights: [
+        {
+          category: "Best in Research",
+        },
+      ],
+    },
+    rankings: {
+      rank: "#4th/150",
+      postedBy:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/ABP_logo.svg/1280px-ABP_logo.svg.png",
+      publications: [
+        {
+          name: "NDTV",
+          logo: "https://i.pinimg.com/736x/8b/12/52/8b125232501ef2f169a7085149b14a3b.jpg",
+        },
+        {
+          name: "The Week",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRju5kN27hH01IMVSj6E7EGIMLSO4mTaZkm3A&s",
+        },
+      ],
+    },
+  },
+  {
+    id: 14,
+    collegeDetails: {
+      name: "IIT Roorkee - Indian Institute of Technology",
+      location: "Roorkee, Uttarakhand | AICTE Approved",
+      program: "B.Tech in Electronics and Communication Engineering",
+      admissionCutoff: "JEE-Advanced 2023 Cutoff: 122",
+    },
+    courseFees: {
+      amount: "Rs. 2,00,000",
+      programType: "BE/BTech",
+      duration: "1st Year Fees",
+    },
+    placements: {
+      averagePackage: "Rs. 22,30,000",
+      highestPackage: "Rs. 1,95,00,000",
+    },
+    userReviews: {
+      rating: "8.5/10",
+      reviewCount: "Based on 298 Reviews",
+      highlights: [
+        {
+          category: "Best in Faculty",
+        },
+      ],
+    },
+    rankings: {
+      rank: "#6th/150",
+      postedBy:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/ABP_logo.svg/1280px-ABP_logo.svg.png",
+      publications: [
+        {
+          name: "NIRF",
+          logo: "https://upload.wikimedia.org/wikipedia/en/5/52/National_Institutional_Ranking_Framework_logo.png",
+        },
+        {
+          name: "CNN",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
+        },
+      ],
+    },
+  },
+  {
+    id: 15,
+    collegeDetails: {
+      name: "IIIT Hyderabad - International Institute of Information Technology",
+      location: "Hyderabad, Telangana | UGC Approved",
+      program: "B.Tech in Computer Science and Engineering",
+      admissionCutoff: "JEE-Main 2023 Cutoff: 90",
+    },
+    courseFees: {
+      amount: "Rs. 3,00,000",
+      programType: "BE/BTech",
+      duration: "1st Year Fees",
+    },
+    placements: {
+      averagePackage: "Rs. 24,50,000",
+      highestPackage: "Rs. 1,60,00,000",
+    },
+    userReviews: {
+      rating: "8.7/10",
+      reviewCount: "Based on 250 Reviews",
+      highlights: [
+        {
+          category: "Best in Coding Culture",
+        },
+      ],
+    },
+    rankings: {
+      rank: "#7th/150",
+      postedBy:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/ABP_logo.svg/1280px-ABP_logo.svg.png",
+      publications: [
+        {
+          name: "India Today",
+          logo: "https://seekvectors.com/files/download/indiatoday-01.png",
+        },
+        {
+          name: "CNN",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
+        },
+      ],
+    },
+  },
+  {
+    id: 16,
+    collegeDetails: {
+      name: "VIT Vellore - Vellore Institute of Technology",
+      location: "Vellore, Tamil Nadu | AICTE Approved",
+      program: "B.Tech in Information Technology",
+      admissionCutoff: "VITEEE 2023 Cutoff: 45000",
+    },
+    courseFees: {
+      amount: "Rs. 1,98,000",
+      programType: "BE/BTech",
+      duration: "1st Year Fees",
+    },
+    placements: {
+      averagePackage: "Rs. 7,80,000",
+      highestPackage: "Rs. 44,00,000",
+    },
+    userReviews: {
+      rating: "8.2/10",
+      reviewCount: "Based on 650 Reviews",
+      highlights: [
+        {
+          category: "Best in Campus Life",
+        },
+      ],
+    },
+    rankings: {
+      rank: "#10th/150",
+      postedBy:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/ABP_logo.svg/1280px-ABP_logo.svg.png",
+      publications: [
+        {
+          name: "NIRF",
+          logo: "https://upload.wikimedia.org/wikipedia/en/5/52/National_Institutional_Ranking_Framework_logo.png",
+        },
+        {
+          name: "CNN",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
+        },
+      ],
+    },
+  },
+  {
+    id: 17,
+    collegeDetails: {
+      name: "Manipal Institute of Technology",
+      location: "Manipal, Karnataka | AICTE Approved",
+      program: "B.Tech in Computer Science and Engineering",
+      admissionCutoff: "MET 2023 Cutoff: 160",
+    },
+    courseFees: {
+      amount: "Rs. 3,15,000",
+      programType: "BE/BTech",
+      duration: "1st Year Fees",
+    },
+    placements: {
+      averagePackage: "Rs. 10,50,000",
+      highestPackage: "Rs. 43,20,000",
+    },
+    userReviews: {
+      rating: "8.3/10",
+      reviewCount: "Based on 550 Reviews",
+      highlights: [
+        {
+          category: "Best in Industry Collaboration",
+        },
+      ],
+    },
+    rankings: {
+      rank: "#12th/150",
+      postedBy:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/ABP_logo.svg/1280px-ABP_logo.svg.png",
+      publications: [
+        {
+          name: "The Week",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRju5kN27hH01IMVSj6E7EGIMLSO4mTaZkm3A&s",
+        },
+        {
+          name: "NIRF",
+          logo: "https://upload.wikimedia.org/wikipedia/en/5/52/National_Institutional_Ranking_Framework_logo.png",
+        },
+      ],
+    },
+  },
+  {
+    id: 18,
+    collegeDetails: {
+      name: "SRM Institute of Science and Technology",
+      location: "Chennai, Tamil Nadu | AICTE Approved",
+      program: "B.Tech in Mechanical Engineering",
+      admissionCutoff: "SRMJEEE 2023 Cutoff: 27500",
+    },
+    courseFees: {
+      amount: "Rs. 2,60,000",
+      programType: "BE/BTech",
+      duration: "1st Year Fees",
+    },
+    placements: {
+      averagePackage: "Rs. 6,80,000",
+      highestPackage: "Rs. 39,00,000",
+    },
+    userReviews: {
+      rating: "7.9/10",
+      reviewCount: "Based on 820 Reviews",
+      highlights: [
+        {
+          category: "Best in Campus Facilities",
+        },
+      ],
+    },
+    rankings: {
+      rank: "#14th/150",
+      postedBy:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/ABP_logo.svg/1280px-ABP_logo.svg.png",
+      publications: [
+        {
+          name: "India Today",
+          logo: "https://seekvectors.com/files/download/indiatoday-01.png",
+        },
+        {
+          name: "CNN",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
+        },
+      ],
+    },
+  },
+  {
+    id: 19,
+    collegeDetails: {
+      name: "Anna University",
+      location: "Chennai, Tamil Nadu | UGC Approved",
+      program: "B.Tech in Information Technology",
+      admissionCutoff: "TNEA 2023 Cutoff: 194",
+    },
+    courseFees: {
+      amount: "Rs. 60,000",
+      programType: "BE/BTech",
+      duration: "1st Year Fees",
+    },
+    placements: {
+      averagePackage: "Rs. 8,50,000",
+      highestPackage: "Rs. 50,00,000",
+    },
+    userReviews: {
+      rating: "8.6/10",
+      reviewCount: "Based on 1050 Reviews",
+      highlights: [
+        {
+          category: "Best in Academics",
+        },
+      ],
+    },
+    rankings: {
+      rank: "#8th/150",
+      postedBy:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/ABP_logo.svg/1280px-ABP_logo.svg.png",
+      publications: [
+        {
+          name: "NIRF",
+          logo: "https://upload.wikimedia.org/wikipedia/en/5/52/National_Institutional_Ranking_Framework_logo.png",
+        },
+        {
+          name: "NDTV",
+          logo: "https://i.pinimg.com/736x/8b/12/52/8b125232501ef2f169a7085149b14a3b.jpg",
         },
       ],
     },

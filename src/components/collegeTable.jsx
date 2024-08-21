@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useCallback, useRef } from "react";
+import React, { useEffect, useState } from "react";
 import {
   Table,
   TableBody,
@@ -26,50 +26,17 @@ const CollegeTable = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [sortCriteria, setSortCriteria] = useState("rating");
   const [sortOrder, setSortOrder] = useState("asc");
-  const [page, setPage] = useState(1);
-  const [hasMore, setHasMore] = useState(true);
-  const [loading, setLoading] = useState(false);
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
-  const loadData = useCallback(async (page) => {
-    const fetchedData = await fetchCollegeData(page);
-    setData(prevData => [...prevData, ...fetchedData]);
-    setHasMore(fetchedData.length > 0);
-  }, []);
-
   useEffect(() => {
     const loadData = async () => {
-      if (loading || !hasMore) return;
-
-      setLoading(true);
-      try {
-        const fetchedData = await fetchCollegeData(page);
-        setData((prevData) => [...prevData, ...fetchedData]);
-        setHasMore(fetchedData.length > 0);
-      } catch (error) {
-        console.error("Error fetching data:", error);
-      } finally {
-        setLoading(false);
-      }
+      const fetchedData = await fetchCollegeData();
+      setData(fetchedData);
     };
 
     loadData();
-  }, [page]);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollableHeight =
-        document.documentElement.scrollHeight - window.innerHeight;
-      if (window.scrollY >= scrollableHeight - 100 && hasMore && !loading) {
-        setPage((prevPage) => prevPage + 1);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, [hasMore, loading]);
-
+  }, []);
 
   const handleSearchChange = (event) => {
     setSearchTerm(event.target.value);
@@ -122,12 +89,24 @@ const CollegeTable = () => {
         <Table aria-label="college table">
           <TableHead>
             <TableRow>
-              <TableCell align="left" className="tableHeaderCell">CD Rank</TableCell>
-              <TableCell align="left" className="tableHeaderCell">Colleges</TableCell>
-              <TableCell align="left" className="tableHeaderCell">Course Fees</TableCell>
-              <TableCell align="left" className="tableHeaderCell">Placement</TableCell>
-              <TableCell align="left" className="tableHeaderCell">User Reviews</TableCell>
-              <TableCell align="left" className="tableHeaderCell">Ranking</TableCell>
+              <TableCell align="left" className="tableHeaderCell">
+                CD Rank
+              </TableCell>
+              <TableCell align="left" className="tableHeaderCell">
+                Colleges
+              </TableCell>
+              <TableCell align="left" className="tableHeaderCell">
+                Course Fees
+              </TableCell>
+              <TableCell align="left" className="tableHeaderCell">
+                Placement
+              </TableCell>
+              <TableCell align="left" className="tableHeaderCell">
+                User Reviews
+              </TableCell>
+              <TableCell align="left" className="tableHeaderCell">
+                Ranking
+              </TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
@@ -247,8 +226,6 @@ const CollegeTable = () => {
             ))}
           </TableBody>
         </Table>
-        {loading && <p>Loading more data...</p>}
-        {!hasMore && <p>No more data to load.</p>}
       </TableContainer>
     </>
   );
