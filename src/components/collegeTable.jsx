@@ -17,8 +17,8 @@ import {
   ArrowCircleDown,
   ArrowSwapHorizontal,
 } from "iconsax-react";
-import SearchFilter from "./SearchFilter";
-import SortFilter from "./SortFilter";
+import SearchFilter from "./shared/SearchFilter";
+import SortFilter from "./shared/SortFilter";
 
 const CollegeTable = () => {
   const [data, setData] = useState([]);
