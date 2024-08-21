@@ -1,0 +1,54 @@
+/* DropdownChip.css */
+
+/* Chip container styles */
+.highlightChipContainer {
+    display: inline-block;
+    position: relative;
+}
+
+/* Dropdown chip styles */
+.highlightChip {
+    background-color: #ffefcc;
+    /* Light orange background */
+    color: #ff8c00;
+    /* Dark orange text */
+    padding: 4px 8px;
+    border-radius: 16px;
+    /* Rounded edges */
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Dropdown content styles */
+.dropdownContent {
+    display: none;
+    /* Hide by default */
+    position: absolute;
+    background-color: #ffefcc;
+    /* Light orange background */
+    border-radius: 4px;
+    padding: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    min-width: 160px;
+}
+
+.dropdownContent.show {
+    display: block;
+    /* Show on toggle */
+}
+
+.dropdownItem {
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin: 2px 0;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.dropdownItem:hover {
+    background-color: #ffcc99;
+    /* Slightly darker orange on hover */
+}

@@ -1,0 +1,115 @@
+.tableContainer {
+    overflow-x: auto;
+}
+
+.tableCell {
+    border-right: 1px solid #ddd;
+}
+
+.tableCell:last-child {
+    border-right: none;
+}
+
+.tableCellContent {
+    margin-bottom: 5px;
+}
+
+
+
+.publicationContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.publicationItem {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+   
+}
+
+.publicationLogo {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.tableHeaderCell {
+    background-color: #a1ccfa;
+    color: white;
+    border-right: 1px solid #ddd;
+}
+
+.tableHeaderCell:last-child {
+    border-right: none;
+}
+
+
+.collegeName {
+    color: #007bff;
+}
+
+.collegeCutoff {
+    color: black;
+}
+
+.collegeProgram {
+    background-color: #ffefcc;
+    
+    color: #ff8c00;
+ 
+    padding: 2px 4px;
+   
+    border-radius: 4px;
+   
+}
+
+.courseFeesAmount {
+    color: #007bff;
+   
+}
+
+.placementPackage {
+    color: #007bff;
+   
+}
+
+.highlightChip {
+    background-color: #ffefcc;
+   
+    color: #ff8c00;
+   
+    padding: 4px 8px;
+    border-radius: 16px;
+   
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.ratingDot {
+    width: 10px;
+    height: 10px;
+    background-color: #ff8c00;
+   
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 8px;
+    animation: blink 1s infinite;
+    
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
