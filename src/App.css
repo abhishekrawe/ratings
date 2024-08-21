@@ -80,6 +80,7 @@
 
 .collegeName {
     color: #007bff;
+    padding-top: 20px;
 }
 
 .collegeCutoff {
@@ -198,6 +199,16 @@ background-color:#bedaf8 ;
     align-items: center;
     font-size: 15px;
     font-weight: 600;
+}
+
+.featuredCollege {
+    background-color: rgb(218, 54, 54);
+    color: white;
+    width: max-content;
+    padding: 7px;
+    border-radius: 20px 0 20px 0px;
+    position:absolute;
+    margin-top: -25px;
 }
 
 

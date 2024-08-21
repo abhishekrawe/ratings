@@ -152,7 +152,11 @@ const CollegeTable = () => {
                 <TableCell align="left" className="tableCell">
                   #{college.id}
                 </TableCell>
+                
                 <TableCell align="left" className="tableCell">
+                  <div className={`tableCellContent ${college?.featureTags ? 'featuredCollege' : ''}`}>
+                    {college?.featureTags}
+                  </div>
                   <div className={`tableCellContent collegeName`}>
                     {college.collegeDetails.name}
                   </div>
@@ -165,7 +169,6 @@ const CollegeTable = () => {
                       {college.collegeDetails.admissionCutoff}
                     </p>
                   </div>
-
                   <div className="college-action">
                     <div className="apply-action">
                       <ArrowRight size="24" color="#ff8c00" />
