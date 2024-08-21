@@ -37,8 +37,8 @@ const data = [
         "https://seeklogo.com/images/I/india-today-logo-0218513CB5-seeklogo.com.png",
       publications: [
         {
-          name: "ABP",
-          logo: "https://static.businessworld.in/1608101890_DKz9K0_new_abp_logo.jpg",
+          name: "NDTV",
+          logo: "https://i.pinimg.com/736x/8b/12/52/8b125232501ef2f169a7085149b14a3b.jpg",
         },
         {
           name: "India Today",
@@ -50,8 +50,9 @@ const data = [
         },
         {
           name: "ABP",
-          logo: "https://static.businessworld.in/1608101890_DKz9K0_new_abp_logo.jpg",
+          logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/ABP_logo.svg/1280px-ABP_logo.svg.png",
         },
+
         {
           name: "India Today",
           logo: "https://seekvectors.com/files/download/indiatoday-01.png",
@@ -109,10 +110,7 @@ const data = [
           name: "CNN",
           logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
         },
-        {
-          name: "ABP",
-          logo: "https://static.businessworld.in/1608101890_DKz9K0_new_abp_logo.jpg",
-        },
+
         {
           name: "India Today",
           logo: "https://seekvectors.com/files/download/indiatoday-01.png",
@@ -120,6 +118,22 @@ const data = [
         {
           name: "NIRF",
           logo: "https://upload.wikimedia.org/wikipedia/en/5/52/National_Institutional_Ranking_Framework_logo.png",
+        },
+        {
+          name: "ABP",
+          logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/ABP_logo.svg/1280px-ABP_logo.svg.png",
+        },
+        {
+          name: "CNN",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
+        },
+        {
+          name: "CNN",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
+        },
+        {
+          name: "ABP",
+          logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/ABP_logo.svg/1280px-ABP_logo.svg.png",
         },
       ],
     },
@@ -160,19 +174,32 @@ const data = [
     rankings: {
       rank: "#2nd/35 ",
       postedBy:
-        "https://w7.pngwing.com/pngs/973/674/png-transparent-the-daily-telegraph-newspaper-logo-united-kingdom-business-united-kingdom-text-logo-monochrome.png",
+        "https://bcassetcdn.com/public/blog/wp-content/uploads/2021/11/06183243/NBC-1.png",
       publications: [
         {
-          name: "ABP",
-          logo: "https://static.businessworld.in/1608101890_DKz9K0_new_abp_logo.jpg",
+          name: "CNN",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
         },
+
         {
           name: "India Today",
           logo: "https://seekvectors.com/files/download/indiatoday-01.png",
         },
         {
+          name: "CNN",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
+        },
+        {
+          name: "CNN",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
+        },
+        {
           name: "NIRF",
           logo: "https://upload.wikimedia.org/wikipedia/en/5/52/National_Institutional_Ranking_Framework_logo.png",
+        },
+        {
+          name: "ABP",
+          logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/ABP_logo.svg/1280px-ABP_logo.svg.png",
         },
       ],
     },
@@ -212,15 +239,23 @@ const data = [
     rankings: {
       rank: "#99th/147 ",
       postedBy:
-        "https://static.businessworld.in/1608101890_DKz9K0_new_abp_logo.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/ABP_logo.svg/1280px-ABP_logo.svg.png",
       publications: [
         {
           name: "The Week",
-          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn0iqLqNb4WWjloVWnsLBEITn_jDg1lyc4fA&s",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRju5kN27hH01IMVSj6E7EGIMLSO4mTaZkm3A&s",
+        },
+        {
+          name: "CNN",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
+        },
+        {
+          name: "CNN",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
         },
         {
           name: "The Week",
-          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn0iqLqNb4WWjloVWnsLBEITn_jDg1lyc4fA&s",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRju5kN27hH01IMVSj6E7EGIMLSO4mTaZkm3A&s",
         },
         {
           name: "NDTV",
@@ -268,11 +303,11 @@ const data = [
     rankings: {
       rank: "#5th/150 ",
       postedBy:
-        "https://static.businessworld.in/1608101890_DKz9K0_new_abp_logo.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/ABP_logo.svg/1280px-ABP_logo.svg.png",
       publications: [
         {
-          name: "ABP",
-          logo: "https://static.businessworld.in/1608101890_DKz9K0_new_abp_logo.jpg",
+          name: "CNN",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
         },
         {
           name: "India Today",
@@ -284,11 +319,27 @@ const data = [
         },
         {
           name: "The Week",
-          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn0iqLqNb4WWjloVWnsLBEITn_jDg1lyc4fA&s",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRju5kN27hH01IMVSj6E7EGIMLSO4mTaZkm3A&s",
         },
         {
           name: "NDTV",
           logo: "https://i.pinimg.com/736x/8b/12/52/8b125232501ef2f169a7085149b14a3b.jpg",
+        },
+        {
+          name: "CNN",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
+        },
+        {
+          name: "CNN",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
+        },
+        {
+          name: "CNN",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
+        },
+        {
+          name: "CNN",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
         },
         {
           name: "CNN",
@@ -332,11 +383,11 @@ const data = [
     rankings: {
       rank: "#8th/100 ",
       postedBy:
-        "https://w7.pngwing.com/pngs/973/674/png-transparent-the-daily-telegraph-newspaper-logo-united-kingdom-business-united-kingdom-text-logo-monochrome.png",
+        "https://bcassetcdn.com/public/blog/wp-content/uploads/2021/11/06183243/NBC-1.png",
       publications: [
         {
-          name: "ABP",
-          logo: "https://static.businessworld.in/1608101890_DKz9K0_new_abp_logo.jpg",
+          name: "NDTV",
+          logo: "https://i.pinimg.com/736x/8b/12/52/8b125232501ef2f169a7085149b14a3b.jpg",
         },
         {
           name: "India Today",
@@ -348,11 +399,15 @@ const data = [
         },
         {
           name: "The Week",
-          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn0iqLqNb4WWjloVWnsLBEITn_jDg1lyc4fA&s",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRju5kN27hH01IMVSj6E7EGIMLSO4mTaZkm3A&s",
         },
         {
           name: "NDTV",
           logo: "https://i.pinimg.com/736x/8b/12/52/8b125232501ef2f169a7085149b14a3b.jpg",
+        },
+        {
+          name: "ABP",
+          logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/ABP_logo.svg/1280px-ABP_logo.svg.png",
         },
         {
           name: "CNN",
@@ -396,11 +451,11 @@ const data = [
     rankings: {
       rank: "#15th/150 ",
       postedBy:
-        "https://static.businessworld.in/1608101890_DKz9K0_new_abp_logo.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/ABP_logo.svg/1280px-ABP_logo.svg.png",
       publications: [
         {
           name: "The Week",
-          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn0iqLqNb4WWjloVWnsLBEITn_jDg1lyc4fA&s",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRju5kN27hH01IMVSj6E7EGIMLSO4mTaZkm3A&s",
         },
         {
           name: "NDTV",
@@ -412,8 +467,17 @@ const data = [
         },
         {
           name: "The Week",
-          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn0iqLqNb4WWjloVWnsLBEITn_jDg1lyc4fA&s",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRju5kN27hH01IMVSj6E7EGIMLSO4mTaZkm3A&s",
         },
+        {
+          name: "CNN",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
+        },
+        {
+          name: "CNN",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
+        },
+
         {
           name: "NDTV",
           logo: "https://i.pinimg.com/736x/8b/12/52/8b125232501ef2f169a7085149b14a3b.jpg",
@@ -461,11 +525,11 @@ const data = [
     rankings: {
       rank: "#30th/150 ",
       postedBy:
-        "https://static.businessworld.in/1608101890_DKz9K0_new_abp_logo.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/ABP_logo.svg/1280px-ABP_logo.svg.png",
       publications: [
         {
-          name: "ABP",
-          logo: "https://static.businessworld.in/1608101890_DKz9K0_new_abp_logo.jpg",
+          name: "NDTV",
+          logo: "https://i.pinimg.com/736x/8b/12/52/8b125232501ef2f169a7085149b14a3b.jpg",
         },
         {
           name: "India Today",
@@ -477,7 +541,7 @@ const data = [
         },
         {
           name: "The Week",
-          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn0iqLqNb4WWjloVWnsLBEITn_jDg1lyc4fA&s",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRju5kN27hH01IMVSj6E7EGIMLSO4mTaZkm3A&s",
         },
         {
           name: "NDTV",
@@ -525,11 +589,15 @@ const data = [
     rankings: {
       rank: "#12th/150 ",
       postedBy:
-        "https://w7.pngwing.com/pngs/973/674/png-transparent-the-daily-telegraph-newspaper-logo-united-kingdom-business-united-kingdom-text-logo-monochrome.png",
+        "https://bcassetcdn.com/public/blog/wp-content/uploads/2021/11/06183243/NBC-1.png",
       publications: [
         {
           name: "The Week",
-          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn0iqLqNb4WWjloVWnsLBEITn_jDg1lyc4fA&s",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRju5kN27hH01IMVSj6E7EGIMLSO4mTaZkm3A&s",
+        },
+        {
+          name: "CNN",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT-R52bE5nFi11FvXv3Er0ADTmXuBd3ieeQ&s",
         },
         {
           name: "NDTV",
@@ -577,12 +645,21 @@ const data = [
     rankings: {
       rank: "#13th/150 ",
       postedBy:
-        "https://static.businessworld.in/1608101890_DKz9K0_new_abp_logo.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/ABP_logo.svg/1280px-ABP_logo.svg.png",
       publications: [
         {
-          name: "ABP",
-          logo: "https://static.businessworld.in/1608101890_DKz9K0_new_abp_logo.jpg",
+          name: "NDTV",
+          logo: "https://i.pinimg.com/736x/8b/12/52/8b125232501ef2f169a7085149b14a3b.jpg",
         },
+        {
+          name: "India Today",
+          logo: "https://seekvectors.com/files/download/indiatoday-01.png",
+        },
+        {
+          name: "India Today",
+          logo: "https://seekvectors.com/files/download/indiatoday-01.png",
+        },
+
         {
           name: "India Today",
           logo: "https://seekvectors.com/files/download/indiatoday-01.png",
@@ -629,11 +706,11 @@ const data = [
     rankings: {
       rank: "#25th/150 ",
       postedBy:
-        "https://static.businessworld.in/1608101890_DKz9K0_new_abp_logo.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/ABP_logo.svg/1280px-ABP_logo.svg.png",
       publications: [
         {
           name: "ABP",
-          logo: "https://static.businessworld.in/1608101890_DKz9K0_new_abp_logo.jpg",
+          logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/ABP_logo.svg/1280px-ABP_logo.svg.png",
         },
         {
           name: "India Today",
@@ -645,7 +722,7 @@ const data = [
         },
         {
           name: "The Week",
-          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn0iqLqNb4WWjloVWnsLBEITn_jDg1lyc4fA&s",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRju5kN27hH01IMVSj6E7EGIMLSO4mTaZkm3A&s",
         },
         {
           name: "NDTV",
@@ -694,11 +771,11 @@ const data = [
     rankings: {
       rank: "#20th/150 ",
       postedBy:
-        "https://w7.pngwing.com/pngs/973/674/png-transparent-the-daily-telegraph-newspaper-logo-united-kingdom-business-united-kingdom-text-logo-monochrome.png",
+        "https://bcassetcdn.com/public/blog/wp-content/uploads/2021/11/06183243/NBC-1.png",
       publications: [
         {
           name: "ABP",
-          logo: "https://static.businessworld.in/1608101890_DKz9K0_new_abp_logo.jpg",
+          logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/ABP_logo.svg/1280px-ABP_logo.svg.png",
         },
         {
           name: "India Today",
@@ -710,7 +787,15 @@ const data = [
         },
         {
           name: "The Week",
-          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn0iqLqNb4WWjloVWnsLBEITn_jDg1lyc4fA&s",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRju5kN27hH01IMVSj6E7EGIMLSO4mTaZkm3A&s",
+        },
+        {
+          name: "India Today",
+          logo: "https://seekvectors.com/files/download/indiatoday-01.png",
+        },
+        {
+          name: "India Today",
+          logo: "https://seekvectors.com/files/download/indiatoday-01.png",
         },
         {
           name: "NDTV",
