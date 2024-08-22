@@ -30,6 +30,7 @@ const CollegeTable = () => {
   const [sortOrder, setSortOrder] = useState("asc");
   const [page, setPage] = useState(1);
   const [loading, setLoading] = useState(false);
+  const [allDataLoaded, setAllDataLoaded] = useState(false); // New state
 
   const rowsPerPage = 10;
 
@@ -56,28 +57,33 @@ const CollegeTable = () => {
   };
 
   const loadMoreData = useCallback(() => {
-    if (loading) return;
+    if (loading || allDataLoaded) return;
 
     setLoading(true);
 
     setTimeout(() => {
       const nextPage = page + 1;
       const nextData = data.slice(0, nextPage * rowsPerPage);
-      setDisplayedData(nextData);
-      setPage(nextPage);
+
+      if (nextData.length === displayedData.length) {
+        setAllDataLoaded(true); // Set allDataLoaded if no more data to load
+      } else {
+        setDisplayedData(nextData);
+        setPage(nextPage);
+      }
+
       setLoading(false);
-    }, 3000); // 3 seconds delay
-  }, [page, data, loading]);
+    }, 1000);
+  }, [page, data, displayedData, loading, allDataLoaded]);
 
   useEffect(() => {
     const handleScroll = () => {
       if (
-        window.innerHeight + document.documentElement.scrollTop !==
-        document.documentElement.offsetHeight ||
-        loading
-      )
-        return;
-      loadMoreData();
+        window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2 &&
+        !loading
+      ) {
+        loadMoreData();
+      }
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -269,6 +275,11 @@ const CollegeTable = () => {
         {loading && (
           <div style={{ textAlign: "center", padding: "20px 0" }}>
             <CircularProgress />
+          </div>
+        )}
+        {!loading && allDataLoaded && filteredData.length === 0 && (
+          <div>
+            No data to render
           </div>
         )}
       </TableContainer>
