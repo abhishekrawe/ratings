@@ -156,18 +156,27 @@ const CollegeTable = () => {
             {filteredData.map((college) => (
               <TableRow key={college.id}>
                 <TableCell align="left" className="tableCell">
-                  #{college.id}
-                </TableCell>
-                
+                  {college.id}
+                </TableCell>       
                 <TableCell align="left" className="tableCell">
                   <div className={`tableCellContent ${college?.featureTags ? 'featuredCollege' : ''}`}>
                     {college?.featureTags}
                   </div>
-                  <div className={`tableCellContent collegeName`}>
-                    {college.collegeDetails.name}
-                  </div>
-                  <div className="tableCellContent">
-                    {college.collegeDetails.location}
+                  <div className="imageContainer">
+                    <div className="imageContianer-logo">
+                      <div className={`tableCellContent collegeName`}>
+                        <img src={college.collegeDetails.logo} className="postedBy" />
+                      </div>
+                    </div>
+                      
+                    <div className="imageContianer-insturcution">
+                      <div className={`tableCellContent collegeName`}>
+                        {college.collegeDetails.name}
+                      </div>
+                      <div className="tableCellContent">
+                        {college.collegeDetails.location}
+                      </div>
+                    </div>
                   </div>
                   <div className={`tableCellContent collegeProgram`}>
                     <p> {college.collegeDetails.program} </p>
@@ -185,7 +194,7 @@ const CollegeTable = () => {
                       <span> Download Brochure </span>
                     </div>
                     <div className="add-compare">
-                      <Checkbox />
+                      <input type="checkbox" className="checkbox-compare" />    
                       Add To Compare
                     </div>
                   </div>
@@ -194,42 +203,42 @@ const CollegeTable = () => {
                   <div className={`tableCellContent courseFeesAmount`}>
                     {college.courseFees.amount}
                   </div>
-                  <div className="tableCellContent">
+                  <div className="tableCellContent courseFeesDuration">
                     {college.courseFees.programType}
                   </div>
-                  <div className="tableCellContent">
-                    - {college.courseFees.duration}
+                  <div className={`tableCellContent courseFeesDuration`}>
+                   {college.courseFees.duration}
                   </div>
-                  <div className="tableCompare">
+                  <div className="tableCellContents tableCompare">
                     <ArrowSwapHorizontal size="24" color="#ff8c00" />
-                    <p> Compare Fees </p>
+                    <b> Compare Fees </b>
                   </div>
                 </TableCell>
                 <TableCell align="left" className="tableCell">
                   <div className={`tableCellContent placementPackage`}>
                     {college.placements.averagePackage}
                   </div>
-                  <span>Average Package</span>
+                  <p className="avg">Average Package</p>
                   <div className={`tableCellContent placementPackage`}>
                     {college.placements.highestPackage}
                   </div>
-                  <span>Highest Package</span>
+                  <p className="avg">Highest Package</p>
                   <div className="tableCompare">
                     <ArrowSwapHorizontal size="24" color="#ff8c00" />
-                    <p> Compare Placement </p>
+                    <b> Compare Placement </b>
                   </div>
                 </TableCell>
                 <TableCell align="left" className="tableCell">
-                  <div className="tableCellContent">
+                  <div className="tableCellContent courseFeesDuration">
                     <span className="ratingDot"></span>
                     {college.userReviews.rating}
                   </div>
-                  <div className="tableCellContent">
+                  <div className="tableCellContent courseFeesDuration">
                     {college.userReviews.reviewCount}
                   </div>
                   <div>
                     {college.userReviews.highlights.map((highlight, index) => (
-                      <div key={index} className="highlightChip">
+                      <div key={index} className="highlightChip courseFeesDuration">
                         {highlight.category}
                       </div>
                     ))}

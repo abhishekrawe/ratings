@@ -11,9 +11,12 @@
 body {
   min-width: 320px;
   min-height: 100vh;
+  color: white;
+  background-color: #d8e6f5;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  color: white;
 }

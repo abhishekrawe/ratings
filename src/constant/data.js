@@ -6,6 +6,7 @@ const data = [
       location: "Chennai, Tamil Nadu | AICTE Approved",
       program: "B.Tech in Computer Science and Engineering",
       admissionCutoff: "JEE-Advanced 2023 Cutoff: 144",
+      logo: "https://doe.iitm.ac.in/wp-content/uploads/2021/06/245-2451831_iit-madras-logo.png",
     },
     courseFees: {
       amount: "Rs. 2,09,550",
@@ -72,6 +73,7 @@ const data = [
       location: "New Delhi, Delhi NCR",
       program: "B.Tech + M.tech Mathematics and Computing",
       admissionCutoff: "JEE-Advanced 2023 Cutoff: 115",
+      logo: "https://logowik.com/content/uploads/images/iit-delhi-indian-institute-of-technology-delhi5001.jpg",
     },
     courseFees: {
       amount: "Rs. 2,54,000",
@@ -146,6 +148,7 @@ const data = [
       location: "Mumbai, Maharashtra | AICTE, UGC Approved",
       program: "B.Tech Computer Science Engineering",
       admissionCutoff: "JEE-Advanced 2023 Cutoff: 66",
+      logo: "https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/Indian_Institute_of_Technology_Bombay_Logo.svg/1200px-Indian_Institute_of_Technology_Bombay_Logo.svg.png",
     },
     courseFees: {
       amount: "Rs. 2,29,300",
@@ -167,7 +170,7 @@ const data = [
         //   category: "Best in Alumni Network",
         // },
         {
-          category: "Best in Research Opportunities",
+          category: "Best in  Opportunities",
         },
       ],
     },
@@ -211,6 +214,7 @@ const data = [
       location: "Vadodra , Gujarat | AICTE COA , PCI , GNC Approved",
       program: "B.Tech Ceramic Engineering",
       admissionCutoff: "JEE-Advanced 2023 Cutoff: 44",
+      logo: "https://logowik.com/content/uploads/images/t_parul-university3698.jpg",
     },
     courseFees: {
       amount: "Rs. 1,49,000",
@@ -229,7 +233,7 @@ const data = [
           category: "Best in Infrastructure",
         },
         // {
-        //   category: "Best in Research",
+        //   category: "Best in ",
         // },
         // {
         //   category: "Best in Student Support",
@@ -275,6 +279,7 @@ const data = [
       location: "Pilani, Rajasthan",
       program: "B.E. in Computer Science",
       admissionCutoff: "BITSAT 2023 Cutoff: 310",
+      logo: "https://w7.pngwing.com/pngs/570/610/png-transparent-birla-institute-of-technology-and-science-pilani-dubai-campus-birla-institute-of-technology-science-pilani-hyderabad-birla-institute-of-technology-science-pilani-goa-student-emblem-people-logo.png",
     },
     courseFees: {
       amount: "Rs. 3,50,000",
@@ -296,7 +301,7 @@ const data = [
         //   category: "Best in Facilities",
         // },
         {
-          category: "Best in Entrepreneurship",
+          category: "Best in Entrepreneur",
         },
       ],
     },
@@ -355,6 +360,7 @@ const data = [
       location: "Tiruchirappalli, Tamil Nadu",
       program: "B.Tech in Chemical Engineering",
       admissionCutoff: "JEE-Main 2023 Cutoff: 85",
+      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFle4Kog35doSplDBIKQcEyKYo1wjXh5YoDQ&s",
     },
     courseFees: {
       amount: "Rs. 1,90,000",
@@ -423,6 +429,7 @@ const data = [
       location: "Kattankulathur, Tamil Nadu",
       program: "B.Tech in Mechanical Engineering",
       admissionCutoff: "SRMJEEE 2023 Cutoff: 115",
+      logo: "https://upload.wikimedia.org/wikipedia/en/f/fe/Srmseal.png",
     },
     courseFees: {
       amount: "Rs. 1,75,000",
@@ -497,6 +504,7 @@ const data = [
       location: "Noida, Uttar Pradesh",
       program: "B.Tech in Information Technology",
       admissionCutoff: "Amity JEE 2023 Cutoff: 90",
+      logo: "https://icon2.cleanpng.com/20180627/vy/aayjnkno0.webp",
     },
     courseFees: {
       amount: "Rs. 1,80,000",
@@ -561,6 +569,7 @@ const data = [
       location: "Vellore, Tamil Nadu",
       program: "B.Tech in Civil Engineering",
       admissionCutoff: "VITEEE 2023 Cutoff: 95",
+      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8fctn2jq8guRd3Sfgxmv9p-ftsSu0YXulGQ&s",
     },
     courseFees: {
       amount: "Rs. 1,95,000",
@@ -617,6 +626,7 @@ const data = [
       location: "Kolkata, West Bengal",
       program: "B.Tech in Electrical Engineering",
       admissionCutoff: "WBJEE 2023 Cutoff: 95",
+      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzhCbSoskvzPR81DWPl2m5d5NfD0eqoFUvNA&s",
     },
     courseFees: {
       amount: "Rs. 1,45,000",
@@ -632,7 +642,7 @@ const data = [
       reviewCount: "Based on 280 User Reviews",
       highlights: [
         {
-          category: "Best in Research Facilities",
+          category: "Best in  Facilities",
         },
         // {
         //   category: "Best in Faculty",
@@ -678,6 +688,7 @@ const data = [
       location: "Bangalore, Karnataka",
       program: "B.Tech in Electronics and Communication",
       admissionCutoff: "KCET 2023 Cutoff: 110",
+      logo: "https://doe.iitm.ac.in/wp-content/uploads/2021/06/245-2451831_iit-madras-logo.png",
     },
     courseFees: {
       amount: "Rs. 1,65,000",
@@ -743,6 +754,7 @@ const data = [
       location: "Greater Noida, Uttar Pradesh",
       program: "B.Tech in Computer Science",
       admissionCutoff: "SNUSAT 2023 Cutoff: 100",
+      logo: "https://doe.iitm.ac.in/wp-content/uploads/2021/06/245-2451831_iit-madras-logo.png",
     },
     courseFees: {
       amount: "Rs. 2,00,000",
@@ -761,7 +773,7 @@ const data = [
           category: "Best in Student Support",
         },
         // {
-        //   category: "Best in Research Facilities",
+        //   category: "Best in  Facilities",
         // },
         // {
         //   category: "Best in Campus Life",
@@ -815,6 +827,7 @@ const data = [
       location: "Kharagpur, West Bengal | AICTE Approved",
       program: "B.Tech in Civil Engineering",
       admissionCutoff: "JEE-Advanced 2023 Cutoff: 155",
+      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9CNh9fj-ynXLXoJuJYPrP5JkISgQWwsW4Ag&s",
     },
     courseFees: {
       amount: "Rs. 2,10,000",
@@ -830,7 +843,7 @@ const data = [
       reviewCount: "Based on 360 Reviews",
       highlights: [
         {
-          category: "Best in Research",
+          category: "Best in ",
         },
       ],
     },
@@ -857,6 +870,7 @@ const data = [
       location: "Roorkee, Uttarakhand | AICTE Approved",
       program: "B.Tech in Electronics and Communication Engineering",
       admissionCutoff: "JEE-Advanced 2023 Cutoff: 122",
+      logo: "https://doe.iitm.ac.in/wp-content/uploads/2021/06/245-2451831_iit-madras-logo.png",
     },
     courseFees: {
       amount: "Rs. 2,00,000",
@@ -899,6 +913,7 @@ const data = [
       location: "Hyderabad, Telangana | UGC Approved",
       program: "B.Tech in Computer Science and Engineering",
       admissionCutoff: "JEE-Main 2023 Cutoff: 90",
+      logo: "https://img.jagranjosh.com/images/2023/August/2882023/12994350_10153689299723717_23227308946167917_n.jpg",
     },
     courseFees: {
       amount: "Rs. 3,00,000",
@@ -941,6 +956,7 @@ const data = [
       location: "Vellore, Tamil Nadu | AICTE Approved",
       program: "B.Tech in Information Technology",
       admissionCutoff: "VITEEE 2023 Cutoff: 45000",
+      logo: "https://doe.iitm.ac.in/wp-content/uploads/2021/06/245-2451831_iit-madras-logo.png",
     },
     courseFees: {
       amount: "Rs. 1,98,000",
@@ -983,6 +999,7 @@ const data = [
       location: "Manipal, Karnataka | AICTE Approved",
       program: "B.Tech in Computer Science and Engineering",
       admissionCutoff: "MET 2023 Cutoff: 160",
+      logo: "https://w7.pngwing.com/pngs/821/546/png-transparent-manipal-academy-of-higher-education-sikkim-manipal-university-sikkim-manipal-institute-of-technology-manipal-university-jaipur-student-text-people-logo-thumbnail.png",
     },
     courseFees: {
       amount: "Rs. 3,15,000",
@@ -1025,6 +1042,7 @@ const data = [
       location: "Chennai, Tamil Nadu | AICTE Approved",
       program: "B.Tech in Mechanical Engineering",
       admissionCutoff: "SRMJEEE 2023 Cutoff: 27500",
+      logo: "https://upload.wikimedia.org/wikipedia/en/f/fe/Srmseal.png",
     },
     courseFees: {
       amount: "Rs. 2,60,000",
@@ -1067,6 +1085,7 @@ const data = [
       location: "Chennai, Tamil Nadu | UGC Approved",
       program: "B.Tech in Information Technology",
       admissionCutoff: "TNEA 2023 Cutoff: 194",
+      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAmpJB4MS9yrz6J_EAAedzjnPKftxMf5XHFQ&s",
     },
     courseFees: {
       amount: "Rs. 60,000",

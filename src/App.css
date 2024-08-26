@@ -1,204 +1,331 @@
 .tableContainer {
     overflow-x: auto;
-}
-
-.tableCell {
-    border-right: 1px solid #ddd;
-}
-
-.tableCell:last-child {
-    border-right: none;
-}
-
-.tableCellContent {
-    margin-bottom: 5px;
-}
-
-
-.publicationContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
-
-.publicationItem {
-    display: flex;
-    align-items: center;
-    margin: 5px 0;
-   
-}
-
-.publicationLogo {
-    width: 25px;
-    height: 25px;
-    margin-right: 5px;
-    border-radius: 30px;
-}
-
-.searchFilterContainer {
-    margin: 16px 0;
-}
-
-.postBy{
-  display: flex;
-  flex-direction: row;
-  font-weight: 500;
-  font-size: 16px;
-}
-
-.postedBy {
-    width: 80px;
-    height: 40px;
-    margin-right: 5px;
+    background-color: #f4f7fc;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-}
-
-.rankingsRank{
-    font-size: 15px;
-    font-weight: 100;
-    color : #ff8c00;
-}
-
-.rankingcontnet{
-    font-size: 15px;
-    font-weight: 500;
-    color : black;
+    border-collapse: collapse;
+    margin-bottom: 20px;
 }
 
 .tableHeaderCell {
-    background-color: #a1ccfa;
+    background: linear-gradient(135deg, #6fb3f4, #4589f5);
     color: white;
     border-right: 1px solid #ddd;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 16px;
+    text-align: center;
+    letter-spacing: 0.5px;
 }
 
 .tableHeaderCell:last-child {
     border-right: none;
 }
 
-
-.collegeName {
-    color: #007bff;
-    padding-top: 20px;
+.tableRow {
+    transition: background-color 0.3s ease;
+    border-bottom: 2px solid #ddd;
 }
 
-.collegeCutoff {
-    color: black;
+.tableRow:hover {
+    background-color: #f0f4ff;
+    background-color: black;
+}
+
+.tableCell {
+    border-right: 1px solid #ddd;
+    padding: 16px;
+    font-size: 14px;
+    color: #2c3e50;
+    text-align: center;
+}
+
+.tableCell:last-child {
+    border-right: none;
+}
+
+.tableBody {
+    background-color: #819fbe;
+    color: #2c3e50;
+
+}
+
+
+
+.tableBody .tableRow:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.tableBody .tableCell {
+    padding: 18px;
+    border-right: 2px solid #f0f0f0;
+    border-bottom: 2px solid #f0f0f0;
+    vertical-align: middle;
+}
+
+.tableBody .tableRow:hover .tableCell {
+    background-color: #e3f2fd;
+    color: #34495e;
+}
+
+.imageContainer {
+    display: flex;
+    align-items: start;
+    direction: column;
+}
+
+.collegeName {
+    color: #3498db;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.tableCellCourse {
+    display: flex;
+    gap: 20px;
+    height: auto;
+    direction: row;
+
+}
+.checkbox-compare {
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
 }
 
 .collegeProgram {
-    background-color: #ffefcc;
-    color: #ff8c00;
-    border-left: 3px solid #ff8c00;
-    padding: 4px 10px;
-    border-radius: 4px;
-    border-radius: 0 20px 20px 0;
-   
-}
-
-.publicationContainer {
-background-color:#bedaf8 ;
-    color: #a1ccfa;
-    border-left: 3px solid #63aefd;
-    padding: 4px 10px;
-    border-radius: 4px;
-    border-radius: 0 8px 8px 0;
-}
-
-.courseFeesAmount {
-    color: #007bff;
-   
-}
-
-.placementPackage {
-    color: #007bff;
-   
-}
-
-.highlightChip {
-    background-color: #ffefcc;
-    color: #ff8c00;
-    padding: 4px 8px;
-    border-radius: 16px;
-    font-weight: 400;
-   
-    display: inline-block;
-    margin-right: 5px;
+    background-color: #fff0d9;
+    color: #e67e22;
+    border-left: 4px solid #e67e22;
+    padding: 8px 12px;
+    border-radius: 0 15px 15px 0;
     font-size: 14px;
+    margin-bottom: 8px;
 }
-
-.ratingDot {
-    width: 10px;
-    height: 10px;
-    background-color: #ff8c00;
-   
-    border-radius: 50%;
-    display: inline-block;
-    margin-right: 8px;
-    animation: blink 1s infinite;
-    
-}
-
-.SearchFilter {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
 
 .college-action {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    gap: 12px;
+    margin-top: 12px;
     align-items: center;
-    padding: 10px;
-    gap: 15px;
 }
 
-.apply-action {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-.download {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
+.apply-action,
+.download,
 .add-compare {
     display: flex;
     align-items: center;
-    gap: 8px;
+    background-color: #fff3e0;
+    padding: 10px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #e0a96d;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.tableCompare{
-   display: flex;
-   align-items: center;
-   flex-direction: row;
-   gap: 5px;
-   color :#ff8c00 ;
-   font-weight: 400;
+.apply-action:hover,
+.download:hover,
+.add-compare:hover {
+    background-color: #ffe0b2;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
+.apply-action {
+    background: linear-gradient(135deg, #ffe7d1, #ffe3b4);
+    color: #e67e22;
+    border-color: #e67e22;
+}
 
+.download {
+    background: linear-gradient(135deg, #d1e7ff, #b4d8ff);
+    color: #3498db;
+    border-color: #3498db;
+}
 
-.searchSortContainer {
+.add-compare {
+    background: linear-gradient(135deg, #d1ffd6, #b4f4b4);
+    color: #2ecc71;
+    border-color: #2ecc71;
+}
+
+.apply-action svg,
+.download svg,
+.add-compare svg {
+    margin-right: 8px;
+}
+
+.apply-action:hover svg,
+.download:hover svg,
+.add-compare:hover svg {
+    color: inherit;
+    transform: scale(1.1);
+}
+
+.apply-action span,
+.download span,
+.add-compare span {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.courseFeesAmount {
+    color: #2ecc71;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.tableCompare {
     display: flex;
-    justify-content: center;
-    margin: 16px 0;
-    gap: 20px;
+    text-wrap: nowrap;
+    align-items: center;
+    margin-top: 8px;
+    cursor: pointer;
+    background: linear-gradient(135deg, #d1e7ff, #b4d8ff);
+    color: #3498db;
+    border-color: #3498db;
+    padding: 10px;
+    border: 1px solid #3498db;
+    border-radius: 10px;
+}
+
+.avg {
+    margin-bottom: 2px;
+}
+
+.tableCompare p {
+    margin-left: 8px;
+}
+
+.placementPackage {
+    color: #2ecc71;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.highlightChip {
+    background-color: #ffe6cc;
+    color: #e67e22;
+    padding: 6px 12px;
+    border-radius: 12px;
+    font-weight: 500;
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 14px;
+    padding: 10px;
+    border: 1px solid #e67e22;
+}
+
+.ratingDot {
+    width: 12px;
+    height: 12px;
+    background-color: #f39c12;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 8px;
+    animation: blink 1.5s infinite;
+}
+
+.rankingsRank {
+    font-size: 16px;
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+.rankingcontnet {
+    font-size: 14px;
+    font-weight: 500;
+    color: #7f8c8d;
+}
+
+.postBy {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 12px;
+    color: #34495e;
+}
+
+.postedBy {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 12px;
+    border: 2px solid #3498db;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+}
+
+.postByText {
+    font-size: 16px;
+    font-weight: 500;
+    color: #2c3e50;
+}
+
+.postByRole {
+    font-size: 14px;
+    color: #7f8c8d;
+}
+
+.postByText .postByRole {
+    margin-top: 2px;
+    display: block;
+}
+
+.publicationContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.publicationItem {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.publicationLogo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #3498db;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.publicationText {
+    font-size: 16px;
+    font-weight: 500;
+    color: #34495e;
 }
 
 .morePublications {
-    color :#007bff ;
     display: flex;
-    flex-direction: row;
     align-items: center;
+    cursor: pointer;
+    color: #3498db;
     font-size: 15px;
-    font-weight: 600;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.morePublications p {
+    margin-right: 8px;
+}
+
+.morePublications:hover {
+    color: #2980b9;
+}
+
+.courseFeesDuration {
+    margin-top: 22px;
 }
 
 .featuredCollege {
@@ -207,22 +334,72 @@ background-color:#bedaf8 ;
     width: max-content;
     padding: 7px;
     border-radius: 20px 0 20px 0px;
-    position:absolute;
-    margin-top: -25px;
+    position: absolute;
+    margin-top: -40px;
 }
 
+.morePublications svg {
+    transition: transform 0.3s ease;
+}
 
+.morePublications:hover svg {
+    transform: translateX(5px);
+}
 
+.searchSortContainer {
+    display: flex;
+    justify-content: center;
+    /* Centers the container horizontally */
+    align-items: center;
+    /* Centers the content vertically */
+    gap: 20px;
+    /* Space between the search and sort filters */
+    margin: 20px 0;
+}
+
+.SearchFilter,
+.SortFilter {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.SearchFilter:hover,
+.SortFilter:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.SearchFilter input,
+.SortFilter select {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.SearchFilter input:focus,
+.SortFilter select:focus {
+    outline: none;
+   
+    box-shadow: 0 0 0 2px #3498db;
+   
+}
 @keyframes blink {
     0% {
-        opacity: 1;
+        background-color: #f33012;
     }
 
     50% {
-        opacity: 0.5;
+        background-color: #f1840f;
     }
 
     100% {
-        opacity: 1;
+        background-color: #e9bc33;
     }
 }
