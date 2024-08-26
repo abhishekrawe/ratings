@@ -1,8 +1,14 @@
-# React + Vite
+## College Rating
+https://github.com/user-attachments/assets/2dabdb1f-ce62-4843-80a8-3be3639f111f
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Tech Stack 
+- ReactJS , CSS , MUI 
 
-Currently, two official plugins are available:
+How to Start - 
+1. Clone - git clone https://github.com/abhishekrawe/ratings.git
+2. cd to college-ratings 
+3. yarn 
+4. yarn run dev
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
